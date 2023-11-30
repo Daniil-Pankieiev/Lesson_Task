@@ -11,8 +11,7 @@ from movies.serializers import MovieSerializer
 
 
 class MovieViewSet(viewsets.ModelViewSet):
-    # write your code here
-    pass
+
     queryset = Movie.objects.all()
     serializer_class = MovieSerializer
 #
