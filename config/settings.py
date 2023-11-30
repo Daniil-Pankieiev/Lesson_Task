@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "crispy_bootstrap5",
 
+
     # User apps
     'accounts.apps.AccountsConfig',
     'movies.apps.MoviesConfig'
